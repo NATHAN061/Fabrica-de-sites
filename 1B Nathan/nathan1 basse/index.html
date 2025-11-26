@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="meuFormulario">
+<input type="emil" required>
+  
+<label for="senha">senha:</label>
+<input type="password" id="senha" required minlength="8">
+
+<label for="confirmaSenha">confirma a Senha:</label>
+<input type="passwaSenha" required>
+
+<button type="submit">registrar</button>
+</form>
+<div id="mesagemErro"></div>
+<script>
+
+const form = docment.getElementByid('meuFormulario');
+form.addEventlistener('submit',function(event)
+{ even.preventDefult();
+vaçidaFormulario();
+});
+ 
+// validação da senha
+if ( senha.length < 8) {
+    mensagemErro += 'a senha deve ter pelo menos 8 carecteres. \n'
+}
+// comfirmação da senha
+if (senha !== cnfirmaSenha) { 
+mensagemErro += 'as senhas não coincidem.\n';
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+.area{
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.black{background-color: rgb(1, 39, 17);}
+body{background-color: rgb(0, 69, 32);
+align-items:center;
+text-align:center;}
+.todo{display: flex;}
+#to{color: #000000;
+text-align: center;
+left: 1250px;
+
+position: relative;
+}
+#do{color: #000000;
+    text-align: center;
+    position: relative;
+    left: 1250px;
+}
+#top{top: 19px;
+right: 659px;
+position: relative;}
+ h1{
+    text-align: center;
+ }
+body{align-items: center;
+justify-content: center;
+text-align: center;}
+
+.lista-vazia{
+display: flex;
+flex-direction: column;
+width: 3000px;
+height: 120;
+margin: auto;
+}
+.lista-vazia * {
+    margin: 0;
+}
+#area { 
+    height: 59vh;
+}
+.hidden {
+    display: none;
+}
+
+.tarefas {
+display: flex;
+justify-content:space-between;
+
+}
+
+.card-atividade {
+display: flex;
+border-radius: 0px;
+background-color: #00ccff;
+color: forestgreen;
+width: 70%;
+}

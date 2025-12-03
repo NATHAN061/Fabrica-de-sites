@@ -1,62 +1,44 @@
-.area{
-    
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.black{background-color: rgb(1, 39, 17);}
-body{background-color: rgb(0, 69, 32);
-align-items:center;
-text-align:center;}
-.todo{display: flex;}
-#to{color: #000000;
-text-align: center;
-left: 1250px;
-
-position: relative;
-}
-#do{color: #000000;
-    text-align: center;
-    position: relative;
-    left: 1250px;
-}
-#top{top: 19px;
-right: 659px;
-position: relative;}
- h1{
-    text-align: center;
- }
-body{align-items: center;
-justify-content: center;
-text-align: center;}
-
-.lista-vazia{
-display: flex;
-flex-direction: column;
-width: 3000px;
-height: 120;
-margin: auto;
-}
-.lista-vazia * {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
-}
-#area { 
-    height: 59vh;
-}
-.hidden {
-    display: none;
+    padding: 0;
 }
 
-.tarefas {
-display: flex;
-justify-content:space-between;
-
+#titulo {
+    text-align: center;
+    background-color: #f2ff00;
+    color: rgb(0, 255, 0);
+    padding: 20px 0;
 }
 
-.card-atividade {
-display: flex;
-border-radius: 0px;
-background-color: #00ccff;
-color: forestgreen;
-width: 70%;
+.navbar {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.navbar a {
+    color: rgb(2, 115, 236);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #239afa;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: rgb(57, 228, 4);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
 }
